@@ -1,0 +1,11 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+.container1{
+ background-color:orange;
+ display: flex;
+ height: 70px;
+ width: 100vw;
+ 
+}

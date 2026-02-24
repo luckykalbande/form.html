@@ -1,0 +1,21 @@
+.groupa{
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+    font-weight: lighter;
+    font-style: calc();
+    font-size: large;
+    text-decoration: underline dashed black;
+}
+div{
+    color: rgba(50,150,100,0.5);
+    background-color:#aafaff;
+    text-align: right;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: row wrap;
+}
+*{
+    background-color: beige;
+}

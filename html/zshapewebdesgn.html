@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        #parent{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            background-color: black;
+        }
+        #con1{
+            margin-top: 30px;
+            height: 10vh;
+            width: 90vw;
+            border: 1px solid white;
+        }
+        #con2{
+            height: 50vh;
+            width: 90vw;
+            margin-top: 10px;
+            border: 1px solid white;
+        }
+        #con3{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 30vh;
+            width: 90vw;
+            /* border: 1px solid white; */
+            /* background-color: blanchedalmond; */
+        }
+        .c{
+            height: 80%;
+            width: 20%;
+            /* background-color: blue; */
+            border: 1px solid wheat;
+        }
+
+    </style>
+  </head>
+  <body>
+    <div id="parent">
+      <div id="con1"></div>
+      <div id="con2"></div>
+      <div id="con3">
+        <div class="c"></div>
+        <div class="c"></div>
+        <div class="c"></div>
+      </div>
+    </div>
+  </body>
+</html>
